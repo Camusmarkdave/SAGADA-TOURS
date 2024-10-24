@@ -1,0 +1,1626 @@
+.wireframe {
+  background-color: #f5ede2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.wireframe .overlap-wrapper {
+  background-color: #f5ede2;
+  overflow: hidden;
+  max-width: 100vw;
+  width: 100%;
+  height: 1080px;
+}
+
+.wireframe .overlap {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  height: 1274px;
+}
+
+
+
+.wireframe .rectangle {
+position: absolute;
+width: 1920px;
+height: 431px;
+left: 0px;
+top: 572px;
+background: #1B1616;
+
+}
+
+
+.wireframe .div {
+  height: 569px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  position: absolute;
+  width: 100%;
+}
+
+/*Home Background Images*/
+.wireframe .image {
+  width: 100%;
+  height: 577px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+  
+}
+
+.wireframe .text-wrapper {
+  position: absolute;
+  top: 321px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 0px 4px 4px #000000;
+  font-family: "Bebas Neue-Regular";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 100px;
+  white-space: nowrap;
+}
+
+.wireframe .img, .wireframe .image-2, .wireframe .image-3 {
+  width: 30%;
+  height: 295px;
+  top: 677px;
+  position: absolute;
+  object-fit: cover;
+
+}
+
+.wireframe .image-2 {
+  left: 70%;
+
+}
+
+.wireframe .img {
+  left: 35%;
+}
+
+.wireframe .image-3 {
+  left: 0%;
+
+}
+/*End Home Background Images*/
+
+.wireframe .rectangle-2 {
+  height: 523px;
+  top: 751px;
+  left: 1281px;
+  position: absolute;
+  width: 1920px;
+}
+
+.wireframe .rectangle-3 {
+  height: 73px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 1920px;
+}
+
+.wireframe .navigation-bar {
+  display: flex;
+  width: 100%;
+  height: 73px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 8px;
+  position: absolute;
+  top: 0;
+  background-color: var(--m3-schemes-surface-container);
+}
+
+/*Start of Navigation Icons*/
+
+.wireframe .nav-item-home {
+  left: 47% ; 
+  display: flex;
+  flex-direction: column;
+  width: 200px; 
+  align-items: center;
+  justify-content: center;
+  gap: 2px; 
+  padding: 8px 0px 10px; 
+  position: absolute;
+  top: 0;
+}
+
+.wireframe .nav-item-home:hover {
+  background-color: gray; 
+  transform: scale(1.05);
+}
+
+.wireframe .nav-item-2 {
+  left: 57%; 
+  display: flex;
+  flex-direction: column;
+  width: 200px; 
+  align-items: center;
+  justify-content: center;
+  gap: 2px; 
+  padding: 8px 0px 10px; 
+  position: absolute;
+  top: 0;
+}
+
+.wireframe .icon-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--m3-schemes-secondary-container);
+  border-radius: 12px; 
+  overflow: hidden;
+}
+
+.wireframe .state-layer {
+  display: flex;
+  width: 48px; 
+  height: 24px; 
+  align-items: center;
+  justify-content: center;
+  padding: 2px 12px; 
+  position: relative;
+}
+
+.wireframe .icon {
+  position: relative;
+  width: 20px; 
+  height: 20px; 
+}
+
+.wireframe .label-text-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--m3-label-medium-prominent-font-family);
+  font-weight: var(--m3-label-medium-prominent-font-weight);
+  color: var(--m3-schemes-on-surface);
+  font-size: 12px; 
+  text-align: center;
+  letter-spacing: var(--m3-label-medium-prominent-letter-spacing);
+  line-height: var(--m3-label-medium-prominent-line-height);
+  font-style: var(--m3-label-medium-prominent-font-style);
+}
+
+.wireframe .nav-item-3 {
+  left: 67%; 
+  display: flex;
+  flex-direction: column;
+  width: 200px; 
+  align-items: center;
+  justify-content: center;
+  gap: 2px; 
+  padding: 8px 0px 10px; 
+  position: absolute;
+  top: 0;
+}
+
+.wireframe .nav-item-4 {
+  left: 77%; 
+  display: flex;
+  flex-direction: column;
+  width: 200px; 
+  align-items: center;
+  justify-content: center;
+  gap: 2px; 
+  padding: 8px 0px 10px; 
+  position: absolute;
+  top: 0;
+}
+
+.wireframe .nav-item-5 {
+  left: 87%; 
+  display: flex;
+  flex-direction: column;
+  width: 200px; 
+  align-items: center;
+  justify-content: center;
+  gap: 2px; 
+  padding: 8px 0px 10px; 
+  position: absolute;
+  top: 0;
+}
+
+/*End of Navigation Icons*/
+
+/*Home description and Navs*/
+.wireframe .icon-3 {
+  position: absolute;
+  width: 12px;
+  height: 9px;
+  top: 636px;
+  left: 1810px;
+}
+
+.wireframe .text-wrapper-2 {
+  position: absolute;
+  width: 700px;
+  top: 125px;
+  left: 155px;
+  text-shadow: 0px 4px 4px #000000;
+  font-family: "Bebas Neue-Regular";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .p {
+  position: absolute;
+  width: 901px;
+  top: 215px;
+  left: 600px;
+  text-shadow: 0px 4px 4px #000000;
+  font-family: "Bebas Neue-Regular";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+/*END|Home description and Navs*/
+
+/*Search Bar*/
+.wireframe .overlap-group {
+  display: flex;
+  align-items: center;
+  background-color:#DADADA; 
+  border-radius: 25px; 
+  padding: 10px;
+  width: 300px; 
+  position: relative;
+  right: 520px;
+  bottom: 170px;
+
+}
+
+.clear-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 40px;
+ 
+}
+.search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.wireframe .search {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+} 
+
+.wireframe .value {
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #000; 
+}
+
+.value::placeholder {
+  color: #888; 
+}
+
+.wireframe .x {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.wireframe .search-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 9px;
+  left: 17px;
+}
+
+/*END|Search Bar*/
+
+/*Footer*/
+.wireframe .image-4 {
+  width: 24px;
+  height: 24px;
+  top: 1033px;
+  left: 545px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.wireframe .text-wrapper-4, .wireframe .text-wrapper-5, .wireframe .text-wrapper-6, .wireframe .text-wrapper-7 {
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+.wireframe .icon-4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 1030px;
+  left: 44px;
+}
+
+.wireframe .logo-instagram {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 1030px;
+  left: 201px;
+  overflow: hidden;
+}
+
+.wireframe .image-5 {
+  width: 24px;
+  height: 27px;
+  top: -372px;
+  left: 1397px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.wireframe .icon-5 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 1030px;
+  left: 213px;
+}
+
+.wireframe .logo-youtube {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 1031px;
+  left: 382px;
+}
+
+.wireframe .gmail-groups {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  top: 1031px;
+  left: 733px;
+}
+
+.wireframe .text-wrapper-3 {
+  position: absolute;
+  top: 1038px;
+  left: 593px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.wireframe .text-wrapper-4 {
+  position: absolute;
+  top: 1038px;
+  left: 76px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.wireframe .text-wrapper-5 {
+  width: 114px;
+  left: 245px;
+  position: absolute;
+  top: 1038px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+.wireframe .text-wrapper-6 {
+  width: 118px;
+  left: 414px;
+  position: absolute;
+  top: 1038px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+.wireframe .text-wrapper-7 {
+  position: absolute;
+  top: 1038px;
+  left: 775px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.wireframe .image-6 {
+  width: 24px;
+  height: 24px;
+  top: 1031px;
+  left: 549px;
+  position: absolute;
+  object-fit: cover;
+}
+/*END|Footer*/
+
+/* General Styling for Navigation Links */
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Styling for Navigation Items */
+.nav-item-2, .nav-item-3, .nav-item-4, .nav-item-5 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+/* Responsive Styling */
+@media (max-width: 1920px) {
+  .nav-item-2, .nav-item-3, .nav-item-4, .nav-item-5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-container {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .label-text-3 {
+    font-size: 0.9em;
+  }
+}
+
+/* Hover Effect */
+.nav-item-2:hover, .nav-item-3:hover, .nav-item-4:hover, .nav-item-5:hover {
+  background-color: grey; 
+  transform: scale(1.05); 
+}
+
+/* Icon and Text Styling */
+.icon-container {
+  margin-right: 10px;
+}
+
+.label-text-3 {
+  font-size: 1em;
+}
+
+
+/*Hover Images*/
+.img {
+  width: 200px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.image-2,
+.image-3 {
+  width: 200px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.img:hover,
+.image-2:hover,
+.image-3:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*title hover*/
+.interactive-text-wrapper-2 {
+  text-decoration: none; 
+}
+
+.interactive-text-wrapper-2 .text-wrapper-2 {
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+}
+
+.interactive-text-wrapper-2 .text-wrapper-2:hover {
+  color: #FFD700;
+  transform: scale(1.05); 
+}
+
+.interactive-text-wrapper {
+  text-decoration: none; 
+}
+
+.interactive-text-wrapper .text-wrapper {
+  cursor: pointer; 
+  transition: all 1.05s ease; 
+}
+
+.interactive-text-wrapper .text-wrapper:hover {
+  color: #FFD700; 
+  transform: scale(1.05); 
+}
+
+
+
+/***************START***************/
+/*Coffins, CLouds, Cave PAGE*/
+
+/*Styling*/
+.wireframe .div {
+  height: 945px;
+  top: 58px;
+  background-color: #d9d9d9;
+  position: absolute;
+  width: 1920px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*Background Image*/
+.wireframe .Background {
+  position: absolute;
+  width: 1940px;
+  height: 936px;
+  top: 65px;
+  opacity: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*Title*/
+.wireframe .Title {
+  position: absolute;
+  width: 912px;
+  top: 278px;
+  text-shadow: 0px 4px 4px #000000;
+  font-family: "Bebas Neue-Regular";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  left: 31%;
+  transform: translateX(-50%);
+  transition: transform 0.3s ease, text-shadow 0.3s ease; 
+}
+
+.wireframe .Title:hover {
+  transform: translateX(-50%) scale(1.05); 
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5), 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+/*Page Description*/
+.wireframe .description {
+  position: absolute;
+  width: 600px;
+  height: 224px;
+  top: 476px;
+  left: 3%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Roboto Condensed-Regular";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/*Images*/
+.wireframe .first {
+  position: absolute;
+  width: 180px;
+  height: 295px;
+  top: 509px;
+  left: calc(70.3% - 180px); 
+  object-fit: cover;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.wireframe .second {
+  position: absolute;
+  width: 180px;
+  height: 295px;
+  top: 509px;
+  left: calc(68.1% - 360px); 
+  object-fit: cover;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.wireframe .third {
+  position: absolute;
+  width: 180px;
+  height: 295px;
+  top: 509px;
+  left: calc(80.9% + 180px); 
+  object-fit: cover;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.wireframe .fourth {
+  position: absolute;
+  width: 180px;
+  height: 295px;
+  top: 509px;
+  left: 78.4%; 
+  transform: translateX(-50%);
+  object-fit: cover;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5); 
+}
+/*End|Images*/
+
+
+
+
+/*Hover Images*/
+
+img.first, img.second, img.third, img.fourth {
+  position: absolute;
+  width: 225px;
+  height: 368px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+img.first:hover, img.second:hover, img.third:hover, img.fourth:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+/* Positioning the images */
+img.first {
+  left: calc(50% - 450px);
+  top: 509px;
+}
+
+img.second {
+  left: calc(50% - 225px);
+  top: 509px;
+}
+
+img.third {
+  left: 50%;
+  top: 509px;
+  transform: translateX(-50%);
+}
+
+img.fourth {
+  left: calc(50% + 225px);
+  top: 509px;
+}
+
+body {
+  background-color: #1B1616;
+}
+
+/***************END***************/
+
+@media print {
+  body {
+    background-color: white; 
+    display: block; 
+    overflow: visible; 
+  }
+  .icon-4, 
+  .icon-5, 
+  .logo-youtube, 
+  .gmail-groups, 
+  .image-6,
+  .text-wrapper-3, 
+  .text-wrapper-4, 
+  .text-wrapper-5, 
+  .text-wrapper-6, 
+  .text-wrapper-7,
+  .nav-item-home, 
+  .nav-item-2, 
+  .nav-item-3, 
+  .nav-item-4, 
+  .nav-item-5,
+  .search, 
+  .search-button, 
+  .search-icon, 
+  .clear-icon, 
+  .overlap-group,
+  .navigation-bar, .wireframe .first,
+  .wireframe .second,
+  .wireframe .third,
+  .wireframe .fourth,
+  .wireframe .nav-link, 
+  .wireframe .Background,
+  .wireframe .registration-form-container,
+  .wireframe .audio-container,
+  .wireframe .naturetext
+
+   {
+    display: none; 
+  }
+
+
+  .Title {
+    font-size: 30px; 
+    text-align: center; 
+    color: #000; 
+  }
+
+  .text-wrapper,
+  .text-wrapper-2,
+  .description,
+  .p {
+    color: #000; 
+    font-size: 16px; 
+    line-height: 1.5; 
+  }
+
+  
+  img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .wireframe .description {
+    font-size: 30px;
+    top: 160px;
+    
+  }
+  .wireframe .Title {
+    font-size: 60px;
+    top: 100px;
+  }
+}
+
+
+
+/*************** TABLET VIEWPORT ***************/
+/*IPAD PRO*/
+@media screen and (max-width: 1024px) {
+  /*Styling*/
+  .wireframe {
+    height: 100vh; 
+  }
+
+  .wireframe .overlap-wrapper {
+    height: 100%; 
+  }
+
+  .wireframe .overlap {
+    height: 100%; 
+  }
+
+  .wireframe .Title {
+    font-size: 100px;
+    left: 25%;
+  }
+
+  .wireframe .description {
+    font-size: 20px;
+    width: 100%;
+    left: 0;
+  }
+
+  .wireframe .first,
+  .wireframe .second, 
+  .wireframe .third,
+  .wireframe .fourth {
+    width: 100%;
+    height: 100%; 
+  }
+
+  .wireframe .nav-item-2,
+  .wireframe .nav-item-3,
+  .wireframe .nav-item-4,
+  .wireframe .nav-item-5,
+  .wireframe .nav-item-home {
+    display: none;
+  }
+
+  .wireframe .icon-container {
+    display: none;
+  }
+
+  .wireframe .label-text-3 {
+    font-size: 1.2em; 
+  }
+
+  
+
+  .wireframe .rectangle {
+    height: 730px;
+    top: 558px;
+  }
+/*END|Styling*/
+
+ 
+ /* Hamburger */
+
+/* Hamburger menu styles */
+.wireframe .hamburger-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 40px;
+  justify-content: space-between;
+  margin: 10px;
+  z-index: 200; 
+  top: 10px;
+  position: fixed; /* Changed from relative to absolute */
+}
+
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: black; 
+}
+
+.dropdown-menu {
+  display: none; 
+  flex-direction: column; 
+  position: absolute; 
+  background-color: #d9d9d9; 
+  border: 1px solid #ccc; 
+  z-index: 300; 
+  top: -10px; 
+  right: 10px; 
+  width: 400px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 4px; 
+  left: 70px;
+  padding: 20px; 
+}
+
+.dropdown-menu a {
+  padding: 20px; 
+  text-decoration: none;
+  color: black; 
+  font-size: 18px; 
+  display: block; 
+  font-family: "Bebas Neue-Regular";
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0; 
+  color: black; 
+}
+
+  /*Hamburger*/
+
+  /*Footer*/
+  .wireframe .icon-4, .wireframe .icon-5, .wireframe .logo-youtube, .wireframe .gmail-groups, .wireframe .image-6,
+  .wireframe .text-wrapper-3, .wireframe .text-wrapper-4, .wireframe .text-wrapper-5, .wireframe .text-wrapper-6, .wireframe .text-wrapper-7 {
+    top: 1320px;
+  }
+  /*Footer*/
+
+/*search bar*/
+.wireframe .overlap-group {
+  width: 400px; 
+  left: 100px; 
+  bottom: 80px; 
+}
+/*search bar*/
+
+/*Home images*/
+.wireframe .image {
+  height: 395px;
+}
+
+.wireframe .img {
+  height: 250px;
+  top: 717px;
+  width: 1000px;
+  left: 1px;
+  
+}
+
+.wireframe .image-3 {
+  height: 250px;
+  top: 432px;
+  width: 1000px;
+  left: 1px;
+  
+}
+
+.wireframe .image-2 {
+  height: 250px;
+  top: 1000px;
+  width: 1000px;
+  left: 1px;
+  
+}
+/*Home Images*/
+
+/*Text*/
+.wireframe .text-wrapper-2 {
+  font-size: 80px;
+  top: 106px;
+  left: 50px;
+}
+.wireframe .p {
+  left: 100px;
+  font-size: 24px;
+}
+
+.wireframe .text-wrapper {
+  font-size: 80px;
+  top: 290px;
+}
+
+/*Coffin, Cave, Sumaguing Link*/
+.wireframe .Background {
+  height: 480px;
+  top: 78px;
+  width: 1010px;
+  left: 500px;
+
+}
+.wireframe .div {
+  height: 10px;
+}
+
+.wireframe .Title {
+  left: 580px;
+}
+
+.wireframe .description {
+  position: absolute;
+  width: 870px;
+  height: 224px;
+  top: 588px;
+  left: 6%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Roboto Condensed-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .first {
+  position: absolute;
+  width: 200px;
+  height: 368px;
+  top: 800px;
+  left: 30px; 
+  object-fit: cover;
+
+}
+.wireframe .second {
+  position: absolute;
+  width: 200px;
+  height: 368px;
+  top: 800px;
+  left: 270px; 
+  object-fit: cover;
+}
+.wireframe .third {
+  position: absolute;
+  width: 200px;
+  height: 368px;
+  top: 800px;
+  left: 610px; 
+  object-fit: cover;
+}
+.wireframe .fourth {
+  position: absolute;
+  width: 200px;
+  height: 368px;
+  top: 800px;
+  left: 850px; 
+  object-fit: cover;
+}
+}
+/*END| IPAD PRO*/
+
+/*IPAD AIR*/
+@media screen and (max-width: 820px) {
+  .wireframe .overlap-group {
+    top: -130px;
+  }
+  .wireframe .hamburger-menu {
+    top: 10px;
+    position: relative;
+  }
+
+  .wireframe .rectangle {
+    height: 700px;
+    top: 400px;
+  }
+  .wireframe .img, .wireframe .image-2, .wireframe .image-3 {
+    width: 800px;
+    left: 10px;
+    height: 180px;
+
+  }
+
+  .wireframe .img{
+    top: 650px;
+  }
+  
+  .wireframe .image-2 {
+    top: 866px;
+  }
+
+.wireframe .Background {
+  height: 320px;
+  width: 785px;
+  left: 394px;
+}
+
+.wireframe .Title {
+  top: 180px;
+  left: 490px;
+}
+
+.wireframe .description {
+  left: 45px;
+  top: 400px;
+  font-size: 20px;
+  width: 700px;
+}
+
+.wireframe .first, .wireframe .second, .wireframe .third, .wireframe .fourth {
+  width: 160px;
+  height: 360px;
+  top: 630px;
+}
+.wireframe .second {
+  left: 220px;
+}
+.wireframe .third {
+  left: 493px;
+
+}
+
+.wireframe .fourth{
+  left: 687px;
+}
+
+  /*Footer*/
+  .wireframe .icon-4, .wireframe .icon-5, .wireframe .logo-youtube, .wireframe .gmail-groups, .wireframe .image-6,
+  .wireframe .text-wrapper-3, .wireframe .text-wrapper-4, .wireframe .text-wrapper-5, .wireframe .text-wrapper-6, .wireframe .text-wrapper-7 {
+    top: 97%;
+    size: 12px;
+  }
+  /*Footer*/
+}
+/*END| IPAD AIR*/
+
+/*IPAD MINI*/
+@media screen and (max-width: 768px) {
+  .wireframe .image {
+    height: 360px;
+  }
+
+  .wireframe .text-wrapper-2 {
+    top: 70px;
+  }
+  .wireframe .p {
+    top: 160px;
+  }
+
+  .wireframe .text-wrapper {
+    top:  240px;
+  }
+  .wireframe .image-3 {
+    top: 380px;
+    left: -10px;
+  }
+  .wireframe .img {
+    top: 580px;
+    left: -10px;
+  }
+  .wireframe .image-2 {
+    top: 780px;
+    left: -10px;
+  }
+  .wireframe .rectangle {
+    height: 570px;
+  }
+  .wireframe .description {
+    left: 22px;
+  }
+  .wireframe .first, .wireframe .second, .wireframe .third, .wireframe .fourth {
+    width: 160px;
+    height: 360px;
+    top: 580px;
+  }
+  .wireframe .first {
+    left: 10px;
+
+  }
+  .wireframe .second {
+    left: 200px;
+  }
+  .wireframe .third {
+    left: 468px;
+  
+  }
+  
+  .wireframe .fourth{
+    left: 660px;
+  }
+
+  }
+  /*END| IPAD MINI*/
+
+
+
+/*************** END TABLET VIEWPORT ***************/
+
+/*************** MOBILE VIEWPORT ***************/
+/* IPHONE 14 PRO MAX*/
+@media screen and (max-width: 430px) {
+  /*Search Bar*/
+  .wireframe .overlap-group {
+    width: 200px; 
+    left: 30px; 
+    top: -110px; 
+  
+  }
+  .wireframe .rectangle {
+    background-color: #1B1616;
+    height: 590px;  
+    top: 290px;
+  }
+
+
+/*Text Mobile*/
+.wireframe .text-wrapper-2 {
+  font-size: 45px;
+  top: 100px;
+}
+.wireframe .p {
+  font-size: 15px;
+  top: 157px;
+}
+
+.wireframe .text-wrapper {
+  font-size: 45px;
+  top: 210px;
+  left: 260px;
+  
+}
+/*Text Mobile*/
+
+  /*Home images*/
+.wireframe .image {
+  height: 317px;
+  width: 430px;
+  left: 1px;
+}
+
+.wireframe .img {
+  height: 130px;
+  top: 360px;
+  width: 430px;
+  left: 1px;
+  
+}
+
+.wireframe .image-3 {
+  height: 130px;
+  top: 530px;
+  width: 1000px;
+  left: 1px;
+  
+}
+
+.wireframe .image-2 {
+  height: 130px;
+  top: 698px;
+  width: 1000px;
+  left: 1px;
+  
+}
+/*End of Home Images*/
+
+/*Footer Mobile*/
+.wireframe .icon-4 {
+  top: 905px; 
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  left: 14px;
+}
+.wireframe .icon-5 {
+  top: 905px; 
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  left: 64px;
+}
+.wireframe .logo-youtube {
+  top: 898px; 
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+  left: 104px;
+}
+.wireframe .gmail-groups {
+  top: 898px; 
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+  left: 154px;
+
+}
+
+.wireframe .image-6 {
+  top: 898px; 
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+  left: 204px;
+}
+
+.wireframe .text-wrapper-5, .wireframe  .text-wrapper-4 {
+  display: none;
+}
+ 
+ .wireframe .icon-4, .wireframe .icon-5, .wireframe .logo-youtube, .wireframe .gmail-groups, .wireframe .image-6,
+ .wireframe .text-wrapper-3, .wireframe .text-wrapper-4, .wireframe .text-wrapper-5, .wireframe .text-wrapper-6, .wireframe .text-wrapper-7 {
+  top: 890px;
+
+ }
+ 
+/*End of Footer mobile*/
+
+/*Cave, Cloud, Sea Mobile*/
+.wireframe .Background {
+  height: 217px;
+  width: 425px;
+  left: 200px;
+}
+
+.wireframe .Title {
+  font-size: 45px;
+  left: 500px;
+  top: 160px;
+}
+
+.wireframe .description {
+  font-size: 12px;
+  width: 400px;
+  left: 1%;
+  top: 299px;
+}
+
+.wireframe .first {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  top: 415px;
+  left: 30px; 
+  object-fit: cover;
+}
+
+.wireframe .second {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  top: 415px;
+  left: 233px; 
+  object-fit: cover;
+}
+
+.wireframe .third {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  top: 648px;
+  left: 305px; 
+  object-fit: cover;
+}
+
+.wireframe .fourth {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  top: 648px;
+  left: 105px; 
+  object-fit: cover;
+}
+/* Hamburger menu styles */
+.wireframe .hamburger-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 20px;
+  justify-content: space-between;
+  margin: 10px;
+  position: relative; 
+  z-index: 200; 
+  top: 30px;
+ 
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: black; 
+}
+
+.dropdown-menu {
+  display: none; 
+  flex-direction: column; 
+  position: absolute; 
+  background-color: #d9d9d9; 
+  border: 1px solid #ccc; 
+  z-index: 300; 
+  top: 1px; 
+  right: 10px; 
+  width: 200px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 4px; 
+  left: 70px;
+  padding: 10px; 
+}
+
+.dropdown-menu a {
+  padding: 10px; 
+  text-decoration: none;
+  color: black; 
+  font-size: 14px; 
+  display: block; 
+  font-family: "Bebas Neue-Regular";
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0; 
+  color: black; 
+}
+
+}
+/*END| IPHONE 14 PRO MAX*/
+
+/*IPHONE XR */
+@media screen and (max-width: 414px) {
+  .wireframe .image {
+    height: 300px;
+  }
+
+  .wireframe .img {
+    top: 330px;
+  }
+  .wireframe .image-3 {
+    top: 490px;
+  }
+  .wireframe .image-2 {
+    top: 650px;
+  }
+
+  .wireframe .rectangle {
+    height: 530px;
+  }
+
+  .wireframe .text-wrapper-2 {
+    left: 30px;
+    top: 100px;
+  }
+
+  .wireframe .p {
+    left: 40px;
+  }
+
+  .wireframe .text-wrapper{
+    left: 230px;
+    
+  }
+
+  .wireframe .first {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 415px;
+    left: 30px; 
+    object-fit: cover;
+  }
+  
+  .wireframe .second {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 415px;
+    left: 240px; 
+    object-fit: cover;
+  }
+  
+  .wireframe .third {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 610px;
+    left: 305px; 
+    object-fit: cover;
+  }
+  
+  .wireframe .fourth {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 610px;
+    left: 95px; 
+    object-fit: cover;
+  }
+
+  /*Footer*/
+  .wireframe .icon-4, .wireframe .icon-5, .wireframe .logo-youtube, .wireframe .gmail-groups, .wireframe .image-6,
+  .wireframe .text-wrapper-3, .wireframe .text-wrapper-4, .wireframe .text-wrapper-5, .wireframe .text-wrapper-6, .wireframe .text-wrapper-7 {
+   top: 840px;
+
+  }
+  /*Footer*/
+  
+}
+
+
+
+/*IPHONE 12 PRO */
+@media screen and (max-width: 390px) {
+  .wireframe .image {
+    height: 270px;
+  }
+  
+  .wireframe .text-wrapper-2 {
+    left: 10px;
+  }
+
+  .wireframe .p {
+    left: 50px;
+  }
+
+  .wireframe .text-wrapper {
+    left: 200px;
+  }
+
+  .wireframe .img {
+    top: 290px;
+  } 
+
+  .wireframe .image-3 {
+    top: 450px;
+  }
+
+  .wireframe .image-2 {
+    top: 610px;
+  }
+
+  .wireframe .rectangle {
+    top: 290px;
+    height: 505px;
+  }
+
+  .wireframe .icon-4 {
+    top: 100px;
+  }
+
+  /*Footer*/
+  .wireframe .icon-4, .wireframe .icon-5, .wireframe .logo-youtube, .wireframe .gmail-groups, .wireframe .image-6,
+  .wireframe .text-wrapper-3, .wireframe .text-wrapper-4, .wireframe .text-wrapper-5, .wireframe .text-wrapper-6, .wireframe .text-wrapper-7 {
+   top: 800px;
+
+  }
+ 
+  .wireframe .description {
+    width: 360px;
+    left: 5px;
+    top: 287px;
+  }
+
+  .wireframe .first {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 415px;
+    left: 30px; 
+    object-fit: cover;
+  }
+  
+  .wireframe .second {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 415px;
+    left: 210px; 
+    object-fit: cover;
+  }
+  
+  .wireframe .third {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 610px;
+    left: 275px; 
+    object-fit: cover;
+  }
+  
+  .wireframe .fourth {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 610px;
+    left: 95px; 
+    object-fit: cover;
+  }
+
+  .wireframe .icon-4 {
+    top: 800px;
+    left: 20px;
+  }
+}
+
+/*END| IPHONE 12*/
+
+
+
+/*************** END MOBILE VIEWPORT ***************/
+
